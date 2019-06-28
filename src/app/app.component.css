@@ -1,0 +1,102 @@
+
+.head {
+  text-align: center;
+}
+
+.calc {
+  width: 490px;
+  height: 720px;
+  position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  margin: auto;
+}
+
+.maindisplay {
+  background: lightgrey;
+  height: 150px;
+  padding: 5% !important;
+  font-size: 4rem;
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: auto;
+  width: 87.8%;
+}
+
+.subdisplay {
+  border-bottom: 1px solid black;
+  height: 25%;
+  font-size: 2rem;
+  overflow: auto;
+}
+
+.keypad {
+  height: calc(200% / 3);
+}
+
+.ackey {
+  margin: 0%;
+  width: 14%;
+  height: 10%;
+  background: whitesmoke;
+  color: black;
+  padding: 5%;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+  border: lightgray solid 1px
+}
+
+.keys {
+  margin: 0%;
+  width: 14%;
+  height: 10%;
+  background: whitesmoke;
+  color: black;
+  padding: 5%;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+  border: lightgray solid 1px
+}
+.numkey {
+  margin: 0%;
+  width: 14%;
+  height: 10%;
+  background: white;
+  color: black;
+  padding: 5%;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+  border: lightgray solid 1px;
+}
+.numkey:hover {
+  background-color: lightgray;
+}
+.opkey:hover {
+  background-color: lightgray;
+}
+.equalkey:hover {
+  background-color: lightgray;
+}
+.ackey:hover {
+  background-color: lightgray;
+}
+.numkey:active {
+  background-color: gray;
+}
+.opkey:active {
+  background-color: gray;
+}
+.equalkey:active {
+  background-color: gray;
+}
+.ackey:active {
+  background-color: gray;
+}
+.one-line {
+  display: inline-block
+}
